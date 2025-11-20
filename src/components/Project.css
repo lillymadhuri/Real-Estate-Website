@@ -1,0 +1,250 @@
+.project{
+   background-color: #002233; /* Deep blue background */
+  color: #b69333;
+  height: 100vh; /* Full screen height */
+font-family: "Cinzel Decorative", "Playfair Display", serif;
+  padding-top: 100px; 
+  padding-bottom: 120%; 
+  
+}
+.project h1{ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:150px;
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 2px
+}
+.project-grid {
+   gap: 30px;
+  margin: 0;
+   box-sizing: border-box;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.project-card {
+  border-radius: 20px;
+   width: 250px;       
+  height: 270px;       
+ background-color:white;
+   margin-left: 100px; 
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 30px 25px;
+  color: #0b1d2d;
+   margin-top:120px;
+
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.project-img {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 22px;
+  color: #ffd700;
+  margin-top: 15px;
+}
+
+.project-location {
+  color: #ffd700;
+  font-size: 16px;
+  margin: 25px ;
+}
+
+.project-status {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Status Colors */
+.ongoing {
+  
+  background-color: #ffd700;
+}
+
+.upcoming {
+  background-color: #ffd700;
+}
+
+.completed {
+  background-color: #ffd700;
+}
+
+.project-btn {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color:  #ffd966;
+  color:black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #1a2e38;
+}
+.project-hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;       /* ADJUST height */
+  overflow: hidden;
+  
+}
+.project-hero-img {
+  
+  margin-top: 150px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* Makes image fit screen */
+  filter: brightness(85%); /* Darken for text visibility */
+}
+
+.project-hero-text {
+  color: olivedrab;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.project-hero-text h1 {
+  color: rgb(58, 70, 34);
+  font-size: 50px;   /* Increase or decrease */
+  margin: 0;
+}
+
+.project-hero-text p {
+   color: rgb(58, 70, 34);
+  font-size: 20px;
+  margin-top: 10px;
+}
+.project-features { 
+  
+  margin-top: 120px;
+  text-align: center;
+  padding: 20px;
+}
+
+.project-features h2 {
+   color: #ffd700;
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+.project-features p {
+   color: #ffd700;
+  margin-top: 10px;
+}
+
+.features-grid {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.feature-box {
+  width: 280px;
+  text-align: center;
+}
+
+.feature-box i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
+   color: #ffd700;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+ 
+}
+
+.feature-box p {
+   color: #ffd700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.cities-section {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.cities-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #ffd700;
+}
+
+.cities-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  justify-content: center;
+}
+
+.city-card {
+  
+  position: relative;
+  height: 260px;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.city-card:hover {
+  transform: translateY(-5px);
+}
+
+.city-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.city-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+
+.city-overlay h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.city-overlay p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+
+
+

@@ -1,0 +1,132 @@
+/* Full-screen width hero section */
+.gallery-hero {
+  position: relative;
+  width: 100%;
+  height: 650px; /* adjust if needed */
+  overflow: hidden;
+}
+
+/* Background image full width */
+.gallery-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes image fully fit */
+  filter: brightness(60%); /* dark overlay effect */
+}
+
+/* Text on top of image */
+.gallery-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  #d3c683;
+  text-align: center;
+}
+
+.gallery-hero-text h1 {
+  font-size: 70px;
+  font-weight: normal;
+  letter-spacing:5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gallery-section {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.gallery-heading {
+  font-size: 70px;
+  font-weight: normal;
+  margin-bottom: 70px;
+  color:#1a2e38;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gallery-heading span{
+    color:#ffd700;
+    margin-left: 15px;
+    
+}
+
+/* 4 images per row */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Image style */
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+/* Hover zoom */
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+.gallery-section1 {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.gallery-heading1{
+  font-size: 70px;
+  font-weight: normal;
+  margin-bottom: 70px;
+  color:#1a2e38;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gallery-heading1 span{
+    color:#ffd700;
+    margin-left: 15px;
+    
+}
+
+/* 4 images per row */
+.gallery-grid1{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.gallery-grid1 img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+/* Hover zoom */
+.gallery-grid1 img:hover {
+  transform: scale(1.05);
+}
+/* -------------------------------------- */
+/* 4 videos in one row */
+/* -------------------------------------- */
+
+.wip-video-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.wip-video-grid video {
+  width: 100%;
+  height: 200px;        /* Adjust height as needed */
+  object-fit: cover;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: 0.3s ease;
+}
+
+/* Hover zoom */
+.wip-video-grid video:hover {
+  transform: scale(1.05);
+}

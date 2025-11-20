@@ -1,0 +1,76 @@
+/* HERO SECTION */
+.media-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* adjust height if needed */
+  overflow: hidden;
+}
+
+.media-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%); /* dark overlay effect */
+}
+
+/* Text on Image */
+.media-hero-text {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  #d3c683;
+  text-align: center;
+}
+
+.media-hero-text h1 {
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+/* MEDIA COVERAGE */
+.media-coverage-section {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.media-coverage-section h2 {
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 40px;
+   color:#1a2e38;
+}
+.media-coverage-section span {
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color:  #d3c683;
+  
+}
+
+
+/* 4 images per row */
+.media-coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.media-coverage-card {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.media-coverage-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+/* Hover zoom effect */
+.media-coverage-card img:hover {
+  transform: scale(1.07);
+}

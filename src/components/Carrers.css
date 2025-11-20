@@ -1,0 +1,228 @@
+/* HERO SECTION */
+.careers-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;   /* Adjust height if needed */
+  overflow: hidden;
+}
+
+.careers-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+/* Text on the image */
+.careers-hero-text {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+   color:#e2cf55;
+}
+
+.careers-hero-text h1 {
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+/* White Box Background */
+.career-form-section {
+  width: 60%;
+   margin: -90px auto 30px auto;
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 10;
+}
+
+/* Form container in 1 row */
+.career-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Each field box */
+.form-group {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+    width: 20%;
+  min-width: 180px;
+}
+
+/* Labels (NAME, EMAIL...) */
+.form-group label {
+   margin: 0 0 8px 0; 
+  font-size: 16px;
+  font-weight: 400;
+  color: #0f2b3c; /* dark blue */
+}
+
+/* Inputs */
+.form-group input,
+.form-group textarea {
+   width: 55%; 
+   padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* Choose file input */
+.file-input {
+  margin-top: 30px;
+  border: none; 
+  color: #03232b;
+  padding: 6px 10px;
+  font-size: 14px;       /* smaller text */
+  width: 200px; 
+  margin:0;
+
+
+}
+
+/* Apply Now Button */
+.apply-btn {
+  background: #03232b;
+  color: #fff;
+ padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 100;
+  cursor: pointer;
+  align-self: center;
+  white-space: nowrap;
+  margin:0;
+}
+
+.apply-btn:hover {
+  background: #05414f;
+}
+.resume-input-box { 
+  gap:20px;
+    display: flex;
+  align-items: center;
+  margin-top: 10px;
+   width: 100%;
+}
+
+/* === Career Info Section (Left Heading / Right Paragraph) === */
+/* Career Info Section */
+.career-info-section {
+  width: 80%;
+  margin: 80px auto 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Left Side */
+.career-info-left {
+  margin-top: 100px; 
+  width: 45%;
+}
+
+.careers-title{
+  font-size: 55px;
+  font-weight: 600;
+  color: #0f2b3c ;
+  margin: 0;
+  line-height: 1;
+}
+
+.career-title-gold {
+  font-size: 55px;
+  font-weight: 700;
+  color: #d9c04a;
+  margin: 5px 0 0 0;
+  line-height: 1;
+}
+
+.career-subtitle {
+  margin-top: 15px;
+  font-size: 22px;
+  font-style: italic;
+  color: #0f2b3c;
+}
+
+/* Right Side Paragraph */
+.career-info-right {
+  width: 50%;
+  padding-left: 70px;     /* moves to the right */
+  margin-top: 70px;       /* moves text down */
+}
+
+.career-info-right p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #6a6767;
+}
+
+.career-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 40px 5%;
+}
+
+.career-box {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 320px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 25px rgba(0,0,0,0.1);
+}
+
+.career-img {
+   width: 100%;
+  height: 220px;             /* adjust height as needed */
+  object-fit: cover;         /* crops image nicely */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: block;
+  margin-bottom: 20px;   ;
+}
+
+.career-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #8a6b0f;
+  padding-left: 25px;
+}
+
+.career-desc {
+  font-size: 17px;
+  color: #333;
+  line-height: 1.6;
+  padding: 0 25px 20px;
+}
+.career-job-desc{
+  color: #333;
+}
+
+.career-list {
+  padding: 0 25px 25px;
+  font-size: 18px;
+  color: #333;
+}
+
+.career-list li {
+  margin-bottom: 8px;
+}
+.career-type{
+   color: #333;
+}
+.career-exp{
+
+color: #333;}
